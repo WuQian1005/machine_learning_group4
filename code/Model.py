@@ -7,7 +7,7 @@ class LinearRegression(Model):
     pass
 
 
-# 决策树模型（CART，C4.5）->分类
+# 决策树模型（ID3）->分类
 class DecisionTree(Model):
     def compute_entropy(dataset):
     # 求总样本数
